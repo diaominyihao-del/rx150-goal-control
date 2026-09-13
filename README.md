@@ -30,3 +30,20 @@ ros2 launch interbotix_xsarm_descriptions xsarm_description.launch.py robot_mode
 ```bash
 ros2 run rx150_goal_control goal_control
 ```
+
+## 文件结构
+
+```text
+rx150-ros2-control/
+├── package.xml
+├── setup.py
+├── README.md
+└── rx150_goal_control/
+    ├── goal_control_node.py
+    ├── kinematics.py
+    ├── trajectory.py
+    └── URDF_params.py
+```
+## 说明
+本项目用于学习机械臂运动学与 ROS2 控制流程，尚未接入真实硬件。
+
